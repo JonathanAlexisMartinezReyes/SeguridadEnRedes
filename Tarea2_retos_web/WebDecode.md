@@ -1,0 +1,5 @@
+1. Lanzamos el srvidor
+Nod da un link a esa pagina web "http://titan.picoctf.net:49319"
+2. Vemos uque la pagina eb tien vrios botones ajaj asi que damos "ctl+shift+c" y habre el inspector de elemonto y damos cli a los botones a ver qe hace, vemos que cuando damos clic en "About" nos da un variable de notificacion "notify_true="cGljb0NURnt3ZWJfc3VjYzNzc2Z1bGx5X2QzYzBkZWRfZjZmNmI3OGF9" "
+3. vemos que es algo encodeado asi que buscamos un decodificador online "https://www.bing.com/ck/a?!&&p=22918e2b80d3dc67b109c899e992bd8094bcff7b285eab172a8e1bd945726087JmltdHM9MTc0MzcyNDgwMA&ptn=3&ver=2&hsh=4&fclid=15ae51a9-fb90-63b1-1e20-451bfac762a5&psq=ddecode+online&u=a1aHR0cHM6Ly93d3cuYmFzZTY0ZGVjb2RlLm9yZy8&ntb=1"
+4. ingresamos "cGljb0NURnt3ZWJfc3VjYzNzc2Z1bGx5X2QzYzBkZWRfZjZmNmI3OGF9" y damos decodificar y nos da la bandera "picoCTF{web_succ3ssfully_d3c0ded_f6f6b78a}"
